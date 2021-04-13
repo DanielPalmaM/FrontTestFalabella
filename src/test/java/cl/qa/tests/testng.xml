@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestFrontFalabellaLogistica">
+
+
+	<parameter name="URL_PRINCIPAL"
+		value="https://clmconsultores.cl/" ></parameter>
+
+	<test name="TestBaseCLMConsultores">
+		<classes>
+			<class name="cl.qa.tests.MainTest">
+				<methods>
+					<!--<include name="ValidaHomePage"/>-->
+				    <include name="ValidaModuloServiciosPruebasFuncionales"/>
+					<include name="ValidaModuloServiciosPruebasRendimiento"/>
+					<include name="ValidaModuloServiciosPruebasMobile"/>
+					<include name="ValidaModuloRecursosBusqueda"/>
+					<include name="ValidaModuloEmpresa"/>
+					<include name="ValidaModuloContactoExitoso"/>
+					<include name="ValidaModuloContactoFallido"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
