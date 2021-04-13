@@ -1,0 +1,19 @@
+# Maven
+target
+
+# TestNG
+test-output
+report
+
+# Eclipse
+.metadata
+.settings
+.classpath
+.project
+
+# Windows
+RemoteSystemsTempFiles
+
+# otros
+*.log
+*.lck
