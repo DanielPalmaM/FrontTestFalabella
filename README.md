@@ -1,6 +1,6 @@
 # <h1>FrontTestFalabella</h1>
 
-Proyecto Maven desarrollado en lenguaje Java utilizando TestNG y patron de diseño Page Object Model(POM). Para la documentación se utilizó JavaDoc y para la generación de reporte extent report con captura de screenshot. El navegador utilizado corresponde a Chrome, donde el binario corresponde a la versión <strong> 89.0.4389.114 </strong>
+Proyecto Maven desarrollado en lenguaje Java utilizando TestNG y patron de diseño Page Object Model(POM). Para la documentación se utilizó JavaDoc y para la generación de reporte extent report con captura de screenshot. El navegador utilizado es Chrome y cuya versión del binario es <strong> 89.0.4389.114 </strong>
 
 La Suite permite probar el front de la página de CLM Consultores y cuenta con 8 tests:
 URL Site: http://clmconsultores.cl/
